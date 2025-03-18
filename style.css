@@ -1,0 +1,174 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #FF6F61; /* Fondo rojo pastel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+}
+
+/* Títulos */
+.main-title {
+    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    font-weight: 900;
+    font-style: italic;
+    color: #FFFFFF; /* Título en blanco */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.section-title {
+    font-family: "Inter", serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #FF6F61;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Sección de entrada */
+.input-section {
+    flex: 60%;
+    background-color: #FFFFFF;
+    border: 1px solid #FF6F61;
+    border-radius: 64px 64px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Contenedores de entrada y botón */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.input-name {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #FF6F61;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+}
+
+.button-container {
+    width: 300px;
+    justify-content: center;
+}
+
+/* Estilos de botón */
+button {
+    padding: 15px 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    border: 2px solid #FF6F61;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    background-color: #FF6F61;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: #E55720;
+}
+
+.button-add {
+    background-color: #B2F2BB;
+    color: #333333;
+    border-radius: 0 25px 25px 0;
+}
+
+.button-add:hover {
+    background-color: #8FD99A;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    color: #333333;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: #05DF05;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Botón de sortear */
+.button-draw {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: #FFFFFF;
+    background-color: #FF6F61;
+    font-size: 16px;
+}
+
+.button-draw img {
+    margin-right: 40px;
+}
+
+.button-draw:hover {
+    background-color: #E55720;
+}
+
+/* Botón de reiniciar */
+.button-reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: #FFFFFF;
+    background-color: #FF6F61;
+    font-size: 16px;
+    border: 2px solid #FF6F61;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button-reset:hover {
+    background-color: #E55720;
+}
+
+.button-reset img {
+    margin-right: 10px;
+}
